@@ -53,9 +53,9 @@
 \usepackage{booktabs}
 \usepackage{microtype}
 
-\title{The \textsf{parnotes} package\parnote{This is rev.~3b, last modified 2019/07/23.}}
+\title{The \textsf{parnotes} package\parnote{This is rev.~3c, last modified 2024/06/12.}}
 \author{Chelsea Hughes\parnote{See \texttt{parnotes.sty} for copyright details. The package has currently no maintainer.}}
-\date{July 23, 2019}
+\date{June 12, 2024}
 
 \renewcommand{\parnotefmt}[1]{\centerline{\colorbox{black!10}{\parbox{0.82\textwidth}{\footnotesize\sffamily\noindent #1}}}}
 
@@ -205,6 +205,10 @@ instead, \verb+\narrower+ must be placed manually within the new definition for 
 
 \section{Changelog}
 {\raggedright
+\noindent\textbf{Revision 3c, released on June 12, 2024 (Frank Mittelbach)}
+\begin{itemize}
+\item Avoid an unnecessary warning about \verb=\theparnotemark=
+\end{itemize}
 \noindent\textbf{Revision 3b, released on July 23, 2019 (Frank Mittelbach)}
 \begin{itemize}
 \item Added options \texttt{reset}, \texttt{alph} and \texttt{symbol}.
