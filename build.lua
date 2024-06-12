@@ -19,10 +19,10 @@ typesetruns   = 2
 
 uploadconfig = {
  pkg = module,
--- version = "rev 3c 2024-07-12",
+ version = "rev 3c 2024-07-12",
  author = "Frank Mittelbach",
  license = "lppl1.3c",
--- summary = "",
+ summary = "Notes after every paragraph (or elsewhere)",
  ctanPath = "/macros/latex/" .. module,
  repository = "https://github.com/FrankMittelbach/fmitex-parnotes",
  bugtracker = "https://github.com/FrankMittelbach/fmitex-parnotes/issues",
