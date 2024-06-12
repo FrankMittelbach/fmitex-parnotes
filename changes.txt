@@ -1,0 +1,14 @@
+2024-06-12  Frank Mittelbach  <Frank.Mittelbach@latex-project.org>
+
+	* parnotes.sty:
+	Do not predefine \theparnotemark unless we are in an older LaTeX
+	format, because this is done by \newcounter and would generate an
+	unnecessary warning.
+
+2019-07-23  Frank Mittelbach  <Frank.Mittelbach@latex-project.org>
+
+	* parnotes.sty:
+	- option `reset`  (alias for restart to match other packages)
+	- option `alph`   (for alph style notes instead of arabic)
+	- option `symbol` (for fnsymbol style notes)
+

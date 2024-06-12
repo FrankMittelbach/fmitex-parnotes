@@ -1,0 +1,6 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+(parnotes.sty
+Package: parnotes ....-..-.. rev. 3c Notes after every paragraph, or elsewhere
+\c@parnotemark=\count...
+)
